@@ -1,5 +1,11 @@
-NoCMS est un site web préfait distribué sous licence GPL.
+================INSTALLATION======================= 
+
 Pour l'installer, vous devez créer une nouvelle base de données.
 Puis appliquer le fichier db_site.sql situé dans le dossier install/
 Puis appliquer le fichier db_realmd.sql situé dans le dossier install/ sur la base de données des comptes
 Puis configurer le fichier conf.php situé dans le dossier lib/
+
+===============CONFIGURATION REQUISE===============
+
+Vous devez avoir une version de PHP supérieure à la 5.1
+Puis avoir l'extension PDO de votre SGBD de PHP activé(par exemple php_pdo_mysql pour MySQL comme SGBD)
