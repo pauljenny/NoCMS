@@ -1,0 +1,721 @@
+/**
+  *
+  * Template: FrozenBlade
+  *
+  * Coded and Designed
+  * By Kitten @ WoWps.org
+  *	
+  * Template copyright WoWps.org 2008
+  * http://www.wowps.org/
+  *
+  */
+
+
+/**
+  * Body
+  */
+body {
+	background-image: url(../images/temp/theme-bg.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+	background-color: #000000;
+	margin: 0 0 0 0;
+	font-size: 11px;
+	font-family: Verdana;
+	color: #6eccfa;
+	overflow-x: hidden;}
+/**
+  * Top Logo Bar
+  */
+.maintile {
+	background-image: url(../images/temp/top-tile.gif);
+	background-repeat: repeat-x;
+	position:absolute;
+	width: 100%;
+	z-index: 2;
+	top: 0px;
+	height: 92px;}
+.gryphon-right {
+	background-image: url(../images/temp/gryphon-right.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+	height: 92px;}
+.gryphon-left {
+	background-image: url(../images/temp/gryphon-left.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	height: 92px;}
+.blue {
+	background-image: url(../images/temp/decor.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	top: 0px;
+	height: 92px;}
+.wowlogo {
+	background-image: url(../images/temp/logo.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:absolute;
+	width: 100%;
+	height: 134px;
+	z-index: 2;
+	left: 0px;
+	top: -3px;}
+
+
+/**
+  * Main Body
+  */
+.top {
+	height: 32px;
+	background-image: url(../images/temp/top.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	margin-top: 131px;}
+.container {
+	width: 755px;
+	background-image: url(../images/temp/scroll_bg.jpg);
+	background-repeat : repeat-y-x;
+	margin: 0 auto 0 auto;
+	text-align: left;}
+.banner {
+	background-image: url(../images/temp/header.gif);
+	margin: 0 0 0 0;
+	height: 178px;
+	width: 755px;}
+.bar {
+	background-image: url(../images/temp/navbar.jpg);
+	margin: 0 0 0 0px;
+	height: 38px;
+	width: 755px;}
+.leftnavi {
+	background-image: url(../images/temp/left-navi.gif);
+	background-position:right;
+	background-repeat:repeat-y;
+	width: 148px;
+	margin: 0 0 0 0;}
+.rightnavi {
+	background-image: url(../images/temp/right-navi.gif);
+	background-position:left;
+	background-repeat:repeat-y;
+	width: 148px;
+	margin: 0 0 0 0;}
+.inner {
+	background-image: url(../images/temp/inner-bg.gif);
+	background-position:right;
+	background-repeat:repeat-y;
+	width: 755px;
+	margin: 0 0 0 0;}
+.inner2 {
+	background-image: url(../images/temp/inner-bg2.gif);
+	background-position:right;
+	background-repeat:repeat-y;
+	width: 100%;
+	height: 100%;
+	margin: 0 0 0 0;}
+.right {
+	width: 22px;
+	height: 153px;
+	background-image: url(../images/temp/right.png);
+	background-position:right;
+	background-repeat:repeat-y;}
+.bottom {
+	height: 32px;
+	background-image: url(../images/temp/bot-brd.jpg);
+	background-position:center;
+	background-repeat:no-repeat;}
+.bot {
+	height: 41px;
+	background-image: url(../images/temp/bottom.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	margin: -8px 0 0 0;}
+.by {
+	background-image: url(../images/temp/wowps.png);
+	background-position:center;
+	height: 80px;
+	margin: 10px 0 30px 0;}
+
+
+/**
+  * Main Menu
+  */
+  
+.main {
+	background-image: url(../images/temp/scroll_top.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+	height: 53px;}
+.story-top {
+	background-image: url(../images/temp/story_top.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-weight:bold;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #6eccfa;
+	height: 100px;
+	margin: 0 0 0 0}
+.story {
+	background-image: url(../images/temp/story-sides.png);
+	background-repeat:repeat-y;
+	background-position:center;
+	height: 100%;
+	margin: 0 0 0 0}
+.story2 {
+	background-image: url(../images/temp/acc-bg.png);
+	background-repeat:repeat-y;
+	background-position:center;
+	height: 100%;
+	margin: 0 0 0 0}
+.story-bot {
+	background-image: url(../images/temp/story-bot.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-weight:bold;
+	text-align:center;
+	height: 205px;
+	margin: 0 0 0 0}
+.story-bot2 {
+	background-image: url(../images/temp/acc-bot.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-weight:bold;
+	text-align:center;
+	height: 269px;
+	margin: 0 0 0 0}
+
+/**
+  * Link Titles
+  */
+.menu {
+	background-image: url(../images/temp/menu.png);
+	background-position:center;
+	height: 28px;
+	width: 144px;
+	margin: -2px 0 5px 0;}
+.account {
+	background-image: url(../images/temp/account.png);
+	background-position:center;
+	height: 28px;
+	width: 144px;
+	margin: 5px 0 5px 0;}
+.workshop {
+	background-image: url(../images/temp/workshop.png);
+	background-position:center;
+	height: 28px;
+	width: 144px;
+	margin: 5px 0 5px 0;}
+.interactif {
+	background-image: url(../images/temp/interactif.png);
+	background-position:center;
+	height: 28px;
+	width: 144px;
+	margin: 5px 0 5px 0;}
+.forum {
+	background-image: url(../images/temp/forum.png);
+	background-position:center;
+	height: 28px;
+	width: 144px;
+	margin: 5px 0 5px 0;}
+.join {
+	background-image: url(../images/temp/flag_acct.gif);
+	background-position:center;
+	height: 270px;
+	width: 142px;
+	margin: -2px 0 0 0;}
+.stats {
+	background-image: url(../images/temp/stats.png);
+	background-position:center;
+	height: 28px;
+	width: 144px;
+	margin: -1px 0 10px 0;}
+.vote {
+	background-image: url(../images/temp/vote.png);
+	background-position:center;
+	height: 28px;
+	width: 144px;
+	margin: 5px 0 10px 0;}
+.affiliation {
+	background-image: url(../images/temp/affiliation.png);
+	background-position:center;
+	height: 28px;
+	width: 144px;
+	margin: 5px 0 10px 0;}
+.admin {
+	background-image: url(../images/temp/admin.png);
+	background-position:center;
+	height: 28px;
+	width: 144px;
+	margin: 5px 0 10px 0;}
+.mj {
+	background-image: url(../images/temp/mj.png);
+	background-position:center;
+	height: 28px;
+	width: 144px;
+	margin: 5px 0 10px 0;}
+/**
+  * Header Styles
+  */
+.story-top2 {
+	background-image: url(../images/temp/acc-top2.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-weight:bold;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #6eccfa;
+	height: 175px;
+	margin: 0 0 0 0}
+.story-top3 {
+	background-image: url(../images/temp/acc-top3.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-weight:bold;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #6eccfa;
+	height: 175px;
+	margin: 0 0 0 0}
+.story-top4 {
+	background-image: url(../images/temp/acc-top4.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-weight:bold;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #6eccfa;
+	height: 175px;
+	margin: 0 0 0 0}
+.story-top5 {
+	background-image: url(../images/temp/acc-top5.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-weight:bold;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #6eccfa;
+	height: 175px;
+	margin: 0 0 0 0}
+.story-top6 {
+	background-image: url(../images/temp/acc-top6.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-weight:bold;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #6eccfa;
+	height: 175px;
+	margin: 0 0 0 0}
+.story-top7 {
+	background-image: url(../images/temp/acc-top7.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-weight:bold;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #6eccfa;
+	height: 175px;
+	margin: 0 0 0 0}
+.story-top8 {
+	background-image: url(../images/temp/acc-top8.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-weight:bold;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #6eccfa;
+	height: 175px;
+	margin: 0 0 0 0}
+
+/**
+  * Staff Members
+  */
+.bg1 {
+	background-color: #29596f;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 2px;
+	width: 390px;
+	padding: 2px 2px 2px 2px;}
+.bg2 {
+	background-color: #000000;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	width: 384px;
+	padding: 2px 2px 2px 2px;}
+.box1 {
+	background-image: url(../images/temp/avatar-shadow-bg.jpg);
+	border-color: #000000;
+	background-repeat:no-repeat;
+	border-width: 1px;
+	border-style: solid;
+	background-color:#111e27;
+	width: 140px;
+	height: 158px;
+	font-size: 11px;
+	font-family: Verdana;
+	color: #ffffff;
+	text-align:center;}
+.charbg {
+	background-image: url(../images/temp/rc-bg.jpg);
+	background-repeat:no-repeat;
+	width: 27px;
+	height: 74px;
+	margin-top: 8px;
+	margin-left: 2px;
+	float:left;}
+.userpic {
+	height: 64px;
+	width: 64px;
+	margin-top: 14px;
+	margin-left: 38px;
+	position:absolute;}
+.user {
+	height: 64px;
+	margin-top: 94px;
+	text-align:center;}
+.box2 {
+	background-image: url(../images/temp/avatar-shadow.jpg);
+	background-repeat:no-repeat;
+	border-color: #000000;
+	background-color:#111e27;
+	border-width: 1px;
+	border-style: solid;
+	width: 240px;
+	height: 158px;
+	font-size: 9px;
+	font-family: Verdana;
+	color: #ffffff;
+	text-align:left;}
+
+/**
+  * Race
+  */
+.human-male {
+	background-image: url(../images/char/race/1-0.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.human-female {
+	background-image: url(../images/char/race/1-1.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.orc-male {
+	background-image: url(../images/char/race/2-0.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.orc-female {
+	background-image: url(../images/char/race/2-1.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.dwarf-male {
+	background-image: url(../images/char/race/3-0.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.dwarf-female {
+	background-image: url(../images/char/race/3-1.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.nightelf-male {
+	background-image: url(../images/char/race/4-0.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.nightelf-female {
+	background-image: url(../images/char/race/4-1.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.undead-male {
+	background-image: url(../images/char/race/5-0.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.undead-female {
+	background-image: url(../images/char/race/5-1.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.tauren-male {
+	background-image: url(../images/char/race/6-0.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.tauren-female {
+	background-image: url(../images/char/race/6-1.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.gnome-male {
+	background-image: url(../images/char/race/7-0.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.gnome-female {
+	background-image: url(../images/char/race/7-1.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.troll-male {
+	background-image: url(../images/char/race/8-0.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.troll-female {
+	background-image: url(../images/char/race/8-1.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.bloodelf-male {
+	background-image: url(../images/char/race/10-0.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.bloodelf-female {
+	background-image: url(../images/char/race/10-1.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.draenei-male {
+	background-image: url(../images/char/race/11-0.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.draenei-female {
+	background-image: url(../images/char/race/11-1.gif);
+	background-repeat:no-repeat;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+	
+/**
+  * Class
+  */
+.warrior {
+	background-image: url(../images/char/class/1.gif);
+	background-repeat:no-repeat;
+	margin-top: 2px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.paladin {
+	background-image: url(../images/char/class/2.gif);
+	background-repeat:no-repeat;
+	margin-top: 2px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.hunter {
+	background-image: url(../images/char/class/3.gif);
+	background-repeat:no-repeat;
+	margin-top: 2px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.rogue {
+	background-image: url(../images/char/class/4.gif);
+	background-repeat:no-repeat;
+	margin-top: 2px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.priest {
+	background-image: url(../images/char/class/5.gif);
+	background-repeat:no-repeat;
+	margin-top: 2px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.shaman {
+	background-image: url(../images/char/class/6.gif);
+	background-repeat:no-repeat;
+	margin-top: 2px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.warlock {
+	background-image: url(../images/char/class/7.gif);
+	background-repeat:no-repeat;
+	margin-top: 2px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.mage {
+	background-image: url(../images/char/class/8.gif);
+	background-repeat:no-repeat;
+	margin-top: 2px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.druid {
+	background-image: url(../images/char/class/9.gif);
+	background-repeat:no-repeat;
+	margin-top: 2px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+	
+/**
+  * Fraction
+  */
+.horde {
+	background-image: url(../images/char/rank_default_1.gif);
+	background-repeat:no-repeat;
+	margin-top: 2px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+.alliance {
+	background-image: url(../images/char/rank_default_0.gif);
+	background-repeat:no-repeat;
+	margin-top: 2px;
+	margin-left: 6px;
+	width: 18px;
+	height: 18px;}
+	
+/**
+  * Form Elements
+  */
+input, textarea {
+	background: #0d1a2d;
+	border: 1px solid #7f7f7f;
+	color: #6eccfa;}
+
+/**
+  * Link Styles
+  */
+#links li{
+	background:url(../images/temp/link_icon.png) no-repeat 6px 0px;
+	display:inline;
+	font-size: 11px;
+	margin: 0 0 0 0;
+	color: #6eccfa;
+	height:14px;}
+#links li a {
+	font-size: 11px;
+	font-family: Verdana;
+	color: #6eccfa;
+	margin: 0 0 0 0;
+	padding: 0 0 0 25px;
+	text-decoration:none;}
+#links li a:hover {
+	color:#ffffff;
+	font-weight:bold;
+	font-family: Verdana;}
+
+/**
+  * Link Styles
+  */
+a:link {
+	font: Verdana;
+	color: #6eccfa;
+	text-decoration: none;}
+a:visited {
+	text-decoration: none;
+	color: #6eccfa;}
+a:hover {
+	text-decoration: none;
+	color: #FFFFFF;}
+a:active {
+	text-decoration: none;}
+a.navibar:link {
+	color: #6eccfa;
+	text-decoration: none;}
+a.navibar:visited {
+	text-decoration: none;
+	color: #6eccfa;}
+a.navibar:active {
+	text-decoration: none;
+	color: #6eccfa;}
+a.navibar:hover {
+	text-decoration: none;
+	color: #FFFFFF;}
+	
+/**
+  * Font Styles
+  */
+.style9 {
+	font-size: 5px;
+	font-family: Verdana;
+	color: #6eccfa}
+.style10 {
+	font-size: 5px;
+	font-family: Verdana;
+	color: #6eccfa}
+.style11 {
+	font-size: 9px;
+	font-family: Verdana;
+	color: #ffffff;
+	font-weight:bold;}
+.style20 {
+	font-size: 6px;
+	font-family: Verdana;
+	color: #6eccfa}
+.style30 {
+	font-size: 9px;
+	font-family: Verdana;
+	color: #6eccfa}
+.style40 {
+	font-size: 10px;
+	font-family: Verdana;
+	color: #6eccfa}
+.style50 {
+	font-size: 12px;
+	font-family: Verdana;
+	color: #6eccfa}
+/**
+* News
+*/
+.temps {
+	font-size: 9px;
+	font-family: Verdana;
+	color: #6eccfa;}
+.titre {
+	font-size : 15px;

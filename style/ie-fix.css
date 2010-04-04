@@ -1,0 +1,33 @@
+/**
+  * Template: FrozenBlade
+  *
+  * Coded and Designed
+  * By Kitten @ WoWps.org
+  *
+  * Template copyright WoWps.org 2008
+  * http://www.wowps.org/
+  */
+
+.top {margin-left: -1px;}
+.bottom {margin-left: -1px;}
+.box1 {height: 158px;}
+.userpic {margin-top: 14px; margin-left: -46px;}
+
+.human-male {margin-left: 4px;} .human-female {margin-left: 4px;}
+.orc-male {margin-left: 4px;} .orc-female {margin-left: 4px;}
+.dwarf-male {margin-left: 4px;} .dwarf-female {margin-left: 4px;}
+.nightelf-male {margin-left: 4px;} .nightelf-female {margin-left: 4px;}
+.undead-male {margin-left: 4px;} .undead-female {margin-left: 4px;}
+.tauren-male {margin-left: 4px;} .tauren-female {margin-left: 4px;}
+.gnome-male {margin-left: 4px;} .gnome-female {margin-left: 4px;}
+.troll-male {margin-left: 4px;} .troll-female {margin-left: 4px;}
+.bloodelf-male {margin-left: 4px;} .bloodelf-female {margin-left: 4px;}
+.draenei-male {margin-left: 4px;} .draenei-female {margin-left: 4px;}
+
+.warrior {margin-left: 4px;} .paladin {margin-left: 4px;} .hunter {margin-left: 4px;}
+.rogue {margin-left: 4px;} .priest {margin-left: 4px;} .shaman {margin-left: 4px;}
+.warlock {margin-left: 4px;} .mage {margin-left: 4px;} .druid {margin-left: 4px;}
+
+.horde {margin-left: 4px;} .alliance {margin-left: 4px;}
+
+#links li{font-size: 5px;}
