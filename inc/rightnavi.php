@@ -18,7 +18,7 @@
 					<?php    
 
 					
-							if (!$sock = @fsockopen($config['ip'], $config['port'], $num, $error, 5))
+							if (!$sock = @fsockopen($array_site['realmist'], $array_site['port'], $num, $error, 5))
 								echo "Statut : <b><font color=\"red\">Hors ligne</font></b>";
 							else{
 								echo "Statut : <b><font color=\"green\">En ligne</font></b>";
@@ -29,7 +29,7 @@
 
 
 </center>
-&nbsp;				Realmlist: <b><?php echo getRealmlist();?></b>
+&nbsp;				Realmlist: <b><?php echo $array_site['realmlist'].':'.$array_site['port']?></b>
 </center><br/>
 
 </font></td>
