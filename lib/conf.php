@@ -18,6 +18,7 @@ $array_site	=	array(
 							"nom"			=> "NoCMS",
 							"lien_forum"	=> "http://nextgenemu.fr",// Lien vers le forum de votre serveur
 							"realmlist"		=> "127.0.0.1",			// Realmlist de votre serveur (sans le port)
+							"port"			=> "8085",				// Port du serveur
 							"players_max"	=> "200",				// Nombre de joueurs maximum sur votre serveur
 							"smtp"			=> "localhost",			// Adresse de votre serveur SMTP pour Windows seulement !
 							"smtp_port"		=> "25",				// Port de votre serveur SMTP pour Windows seulement !

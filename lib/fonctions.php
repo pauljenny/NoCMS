@@ -8,22 +8,6 @@
 ////////////////////////////////////////
 ////	Fonctions globales du site	////
 ////////////////////////////////////////
-function getRealmlist()
-{
-	global $db_realmd;
-	try
-	{
-		$realmlist = $db_realmd->query("SELECT `address`,`port` FROM `realmlist` WHERE `id` = '1' LIMIT 1");
-	}
-	catch(Exception $e)
-	{
-		die("Erreur lors de la recherche du realmlist !<br />Message d'erreur : ".$e->getMessage()."");
-		return false;
-	}
-	$result = $realmlist->fetch(PDO::FETCH_NUM);
-	$resultt = $result[0].':'.$result[1];
-	return $resultt;
-}
 function getPlayersOnline()
 {
 	global $db_characters,$array_site;
