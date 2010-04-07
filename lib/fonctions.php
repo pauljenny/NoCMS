@@ -27,7 +27,7 @@ function verifTimeVote($id)
 {
 	global $db_realmd;
 	$query = $db_realmd->query("SELECT `date_vote` FROM `votes` WHERE `aid` = '".$id."'");
-	$fetch = $query->fetch(PDO::FETCH_NUM);
+	$fetch = @$query->fetch(PDO::FETCH_NUM);
 	if(!$fetch) return true;
 	elseif($fetch[0] + 7200 > time()) return false; // 7200 secondes = 2 heures
 	else return true;
