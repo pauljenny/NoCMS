@@ -4,9 +4,9 @@ if(isset($_SESSION['connect']))
 {
 	if(isset($_GET['act']) && $_GET['act'] == 'disconnect')
 	{
-		include('./modules/compte/html/deconnexion.php');
 		$_SESSION = array();
 		session_destroy();
+		include('./modules/compte/html/deconnexion.php');
 	}
 	else
 	{
