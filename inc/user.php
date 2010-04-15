@@ -40,6 +40,10 @@
 				<li><a href="index.php?mod=interactif_player_online">Les personnages en ligne</a></li><br/><br/>
 				<li><a href="index.php?mod=interactif_top_honor">Top Honneur</a></li><br/><br/>
 				<li><a href="index.php?mod=interactif_top_vote">Top des voteurs</a></li><br/><br/>
+				
+<div class="forum"></div>
+
+				<li><a href="<?php echo $array_site['lien_forum'];?>">Forum</a></li><br/><br/>
 
 <?php
 if(getSecurityLevel($_SESSION['id']) >= $array_site['niveau_mj'])
@@ -58,5 +62,5 @@ if(getSecurityLevel($_SESSION['id']) >= $array_site['niveau_admin'])
 			
 		
 		<!-- --------- -->	
-</font></div><br/></td>
+</font></div><a href="http://wowps.org/forum"><div class="by"></div></a><br/></td>
 <td width="420" valign="top">

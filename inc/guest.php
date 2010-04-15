@@ -42,8 +42,10 @@
 				<li><a href="index.php?mod=interactif_top_honor">Top Honneur</a></li><br/><br/>
 				<li><a href="index.php?mod=interactif_top_vote">Top des voteurs</a></li><br/><br/>
 		<!-- --------- -->
-			
+<div class="forum"></div>
+
+				<li><a href="<?php echo $array_site['lien_forum'];?>">Forum</a></li><br/><br/>			
 		
 		<!-- --------- -->	
-</font></div><br/></td>
+</font></div><a href="http://wowps.org/forum"><div class="by"></div></a><br/></td>
 <td width="420" valign="top">
