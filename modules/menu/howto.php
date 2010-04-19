@@ -14,7 +14,7 @@
 		
 			<img src="images/text/connect.png">	
 </div></div><div class="story2"><center><div style="width:400px; text-align:left"><br>
-			
+	<small>		
 			<!-- Introduction Line -->
 			
 Ce guide vous indique comment configurer le client de votre jeu World Of Warcraft pour jouer sur notre serveur.
@@ -64,7 +64,7 @@ Maintenant aller dans le répertoire Data/frFR puis ouvrez un fichier dénommé 're
 
 		<!-- Put Your Server Realmlist Here -->
 
-<center><font color="#FFFFFF">			set realmlist  <?php echo getRealmlist(); ?>			</font><br/><br/></center>
+<center><font color="#FFFFFF">			set realmlist  <?php echo $array_site['realmlist']; ?>			</font><br/><br/></center>
 
 
 Puis sauvegarder et fermer-le.<br><br>
@@ -83,5 +83,5 @@ Vous jouez sur plusieurs serveurs World Of Warcraft mais vous ne voulez pas chan
 <img src="images/temp/icon.gif"><strong> Créer un compte sur le serveur</strong><br><br>
 			
 Vous pouvez maintenant créer un compte sur notre serveur en allant sur la <a href="./index.php?mod=compte_inscription">page d'inscription du site</a>.<br><br>
-Puis jouer !
+Puis jouer !</small>
 </div></center></div><div class="story-bot2"></div><br /></td>
